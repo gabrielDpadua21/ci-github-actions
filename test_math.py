@@ -7,5 +7,9 @@ class MathTestCase(unittest.TestCase):
         result = sum(10, 10)
         self.assertEqual(result, 20)
 
+    def test_sum2(self):
+        result = sum(11, 11)
+        self.assertEqual(result, 21)
+
 if __name__=='__main__':
     unittest.main()
