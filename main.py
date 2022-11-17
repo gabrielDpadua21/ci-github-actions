@@ -1,4 +1,4 @@
-from math import sum
+from calculator import sum
 
 if __name__=='__main__':
 	try:
@@ -7,4 +7,4 @@ if __name__=='__main__':
 		result = sum(number1, number2)
 		print(result)
 	except:
-		print("Erro to set a number")
+		print("Erro to set a number!!!")
