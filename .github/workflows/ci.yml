@@ -17,5 +17,4 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: pip install coverage 
       - run: python -m coverage run -m unittest
-      - run: python math.py
 
