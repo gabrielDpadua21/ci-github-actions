@@ -18,8 +18,7 @@ jobs:
       - run: pip install coverage 
       - run: python -m coverage run -m unittest
       - name: Install tox and any other packages
-        run: pip install tox
-        run: pip install pytest-cov
+        run: pip install tox pytest-cov
       - name: Run tox
         run: tox -e py
       - name: SonarCloud Scan
