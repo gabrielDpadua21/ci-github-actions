@@ -1,4 +1,4 @@
-from math import sum
+from calculator import sum
 
 if __name__=='__main__':
 	try:
